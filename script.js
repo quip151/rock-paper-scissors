@@ -57,6 +57,8 @@ for(i = 0; i < 5; i++ ) {
     playerChoice()
     game()
 }
+
+//Score output
 if (playerScore > computerScore) {
     alert("You won! The final score is " + playerScore + "-" + computerScore + ".")
 } else if (computerScore > playerScore) {
